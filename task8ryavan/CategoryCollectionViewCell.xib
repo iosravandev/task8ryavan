@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
+            <connections>
+                <outlet property="categoryButton" destination="Yvn-CH-S91" id="RFz-m0-bdj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cOZ-wo-lBu" customClass="CategoryCollectionViewCell" customModule="task8ryavan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="32"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mn1-0s-PxF">
+                    <rect key="frame" x="0.0" y="0.0" width="131" height="32"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvn-CH-S91">
+                            <rect key="frame" x="0.0" y="0.0" width="131" height="32"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Yvn-CH-S91" secondAttribute="bottom" id="BYo-pS-HzU"/>
+                        <constraint firstAttribute="height" constant="32" id="CBN-z9-R1s"/>
+                        <constraint firstItem="Yvn-CH-S91" firstAttribute="leading" secondItem="Mn1-0s-PxF" secondAttribute="leading" id="MTK-Sl-oPc"/>
+                        <constraint firstItem="Yvn-CH-S91" firstAttribute="top" secondItem="Mn1-0s-PxF" secondAttribute="top" id="jkb-ki-jeU"/>
+                        <constraint firstAttribute="trailing" secondItem="Yvn-CH-S91" secondAttribute="trailing" id="z0j-QM-MVi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mn1-0s-PxF" secondAttribute="trailing" id="QKz-6J-BfJ"/>
+                <constraint firstItem="Mn1-0s-PxF" firstAttribute="leading" secondItem="cOZ-wo-lBu" secondAttribute="leading" id="RDG-MV-VEZ"/>
+                <constraint firstItem="Mn1-0s-PxF" firstAttribute="top" secondItem="cOZ-wo-lBu" secondAttribute="top" id="UWj-o8-fvn"/>
+                <constraint firstAttribute="bottom" secondItem="Mn1-0s-PxF" secondAttribute="bottom" id="Wl6-k1-4gc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-361.06870229007632" y="-601.4084507042254"/>
+        </view>
+    </objects>
+</document>
